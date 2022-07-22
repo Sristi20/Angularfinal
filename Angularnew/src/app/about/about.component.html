@@ -1,0 +1,12 @@
+<input type="text" 
+  #box
+  (keyup)="getValue(box.value)"
+  placeholder="Enter Text" name="name" />
+  <input type="text" #box2 placeholder="On CLick enter">
+  <button (click)="getText(box2.value)">Click Here</button>
+  <p>
+    Box Value is: {{displayVal}}
+  </p>
+  <p>
+    This is on click: {{displayVal2}}
+  </p>

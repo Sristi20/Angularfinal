@@ -1,0 +1,14 @@
+<div class="main-body">
+    <div class="logo"><img src="../../assets/index.png"></div>
+    <div> 
+        <form  [formGroup]="loginForm" (ngSubmit)="submit()">
+            <p>Email</p>
+            <input type="email"  formControlName="email">
+            <br>
+            <p>Password</p>
+            <input type="password"  formControlName="password">
+            <button>Login</button>
+        
+        </form>
+    </div>
+</div>

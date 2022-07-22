@@ -1,0 +1,23 @@
+.main-body{
+    margin-left: calc(50% - 150px);
+}
+
+.logo{
+    margin-bottom: 20px;
+}
+
+.test{
+    margin-bottom: 20px;
+    width: 300px;
+    height: 40px;
+}
+
+.password{
+    width: 300px;
+    height: 40px;
+}
+
+.enter{
+    margin-left: 130px;
+    margin-top: 20px;
+}
